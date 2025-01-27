@@ -6,7 +6,7 @@ import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 import { app } from "../../firebase";
 import { useRouter } from "next/navigation";
 
-import "../globalsClasses.css"
+import "../styles/globalsClasses.css"
 
 export default function Register() {
   const [email, setEmail] = useState("");
